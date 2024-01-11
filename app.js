@@ -24,7 +24,7 @@ while(inserirLogin != login1 || inserirLogin != login2 || inserirLogin != login3
 }
 
 while(inserirSenha != senha1 || inserirSenha != senha2 || inserirSenha != senha3){
-    inserirSenha = prompt("Agora digite sua senha:");
+    inserirSenha = prompt("Digite sua senha:");
     if(inserirLogin == login1){
         if(inserirSenha == senha1){
             alert(`Seja bem vindo, ${login1}!`);
