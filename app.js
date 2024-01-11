@@ -19,7 +19,7 @@ while(inserirLogin != login1 || inserirLogin != login2 || inserirLogin != login3
         alert(`Olá, ${login3}!`);
         break;
     }else{
-        alert("Usuário não encontrado, tenta novamente!")
+        alert("Usuário não encontrado, tente novamente!")
     }
 }
 
