@@ -6,6 +6,7 @@ let senha2 = "12demarço";
 let senha3 = "14deabril";
 let inserirLogin;
 let inserirSenha;
+let promptincorreto;
 
 while(inserirLogin != login1 || inserirLogin != login2 || inserirLogin != login3){
     inserirLogin = prompt("Insira seu login:");
@@ -19,7 +20,7 @@ while(inserirLogin != login1 || inserirLogin != login2 || inserirLogin != login3
         alert(`Olá, ${login3}!`);
         break;
     }else{
-        alert("Usuário não encontrado, tente novamente!")
+        alert("Usuário não encontrado, tente novamente!");
     }
 }
 
@@ -46,7 +47,7 @@ while(inserirSenha != senha1 || inserirSenha != senha2 || inserirSenha != senha3
             alert(`Seja bem vinda, ${login3}!`)
             break;
         }else{
-            alert("Senha incorreta, tente novamente...")
+            alert("Senha incorreta, tente novamente...");
         }
     }
 }
